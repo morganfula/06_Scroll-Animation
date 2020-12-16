@@ -30,11 +30,11 @@ h1 {
   height: 200px;
   margin: 10px;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-  transform: translateX(500%);
-  transition: transform 0.4s ease;
+  transform: translateX(400%);
+  transition: transform 0.4s ease-in-out;
 
   &:nth-last-of-type(even) {
-    transform: translateX(-500%);
+    transform: translateX(-400%);
   }
 
   &.show {
